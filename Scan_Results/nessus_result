@@ -1,1 +1,36 @@
 
+# Simulated Nessus Scan Results
+
+Scan Date: 2025-08-08
+Target Network: 192.168.1.0/24
+
+---
+
+Host: 192.168.1.10
+OS: Windows Server 2016
+Critical Vulnerability:
+- MS17-010 (EternalBlue) - CVE-2017-0144
+- Risk: Critical
+- Recommendation: Apply patch from Microsoft ASAP
+
+Medium Vulnerability:
+- SMB Signing Not Required
+- Risk: Medium
+- Recommendation: Enable SMB signing to prevent MITM attacks
+
+---
+
+Host: 192.168.1.12
+OS: Ubuntu 20.04
+Low Vulnerability:
+- Outdated OpenSSH Version
+- Risk: Low
+- Recommendation: Update OpenSSH to the latest version
+
+---
+
+Scan Summary:
+- Critical: 1
+- High: 0
+- Medium: 1
+- Low: 1
